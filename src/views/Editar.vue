@@ -64,8 +64,7 @@ export default {
       };
       
       this.$store.commit("actualizarOpinion", data);
-      // alert('Opinion actualizada');
-      swal(`${this.nombre}`, "¡Tu opinión ha sido actualizada!", "success");
+      alert(`${this.nombre}, ¡Tu opinión ha sido actualizada!`);
     
     },
   },

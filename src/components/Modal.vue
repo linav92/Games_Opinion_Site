@@ -76,7 +76,7 @@ export default {
 
       this.$store.commit("guardarOpinion", data);
   
-      swal(`${this.nombre}`, "¡Tu opinión ha sido guardada!", "success");
+      alert(`${this.nombre}, ¡Tu opinión ha sido guardada!`);
 
       this.nombre = "";
       this.opinion = "";
